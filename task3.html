@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="jquery-3.1.1.min.js"></script>
+    <script  type="text/javascript">
+        $(document).ready(function () {
+            $("#btnShow").click(function () {
+                $("div").show("slow");
+            });
+            $("#btnHide").click(function () {
+                $("div").hide("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <button id="btnShow">Show</button>
+    <button id="btnHide">Hide</button>
+    <div style="background-color:red; width:100%;height:400px;" >
+    </div>
+</body>
+</html>

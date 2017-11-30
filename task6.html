@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        textarea:required:invalid, input:required:invalid {
+        
+	background:#147cc4;
+
+	}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Regular Expressions Check</h1>
+    </header>
+    
+    <form id="myform" action="#">
+        <input id="phone" placeholder="0321-9231059" title="Please enter in this format 0321-9231053" required pattern="[0-9]{4}-[0-9]{7}">
+        <input id="button1" type="submit">
+    </form>
+</body>
+</html>

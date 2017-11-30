@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <style>
+        h1 {
+    color: green;
+}
+
+#dvTop {
+    width:70%;
+    height:100px;
+    background-color:lightblue;
+    border-radius:0px 100px 100px 0px;
+}
+#dvLeft {
+    width:30%;
+    height:400px;
+    background-color:lightblue;
+    float:left;
+    border-radius:0px 0px 500px 0px;
+    box-shadow:red 10px 10px;
+}
+#dvRight {
+    width:70%;
+    height:400px;
+    background-color:lightgreen;
+    float:left;
+    border-radius:0px 500px 0px 500px ;
+}
+#dvBottom {
+    width:40%;
+    height:100px;
+    background-color:lightgreen;
+    float:right;
+}
+
+.Content {
+    text-align:right;
+    background-color:lightcoral;
+    font-weight:bolder;
+    color:white;
+
+}
+
+.Control {
+    background-color:lightseagreen;
+    color:white;
+}
+    </style>
+</head>
+<body>
+    <div id="dvTop"></div>
+    <div id="dvLeft"></div>
+    <div id="dvRight">
+        <form id="frm" method="post" action="HtmlPage2.html">
+            <table width="100%" border="0">
+                <tr>
+                    <td class="Content">
+                        User Name
+                    </td>
+                    <td class="Control">
+                        <input type="text" name="txtName" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Password
+                    </td>
+                    <td class="Control">
+                        <input type="password" name="txtPassword" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Gender
+                    </td>
+                    <td class="Control">
+                        <input type="radio" name="gen" />Male
+                        <input type="radio" name="gen" />Female
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Select your Course
+                    </td>
+                    <td class="Control">
+                        <input type="checkbox" />WPL
+                        <input type="checkbox" />VPL
+                        <input type="checkbox" />DBMS
+                        <input type="checkbox" />CP
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Country
+                    </td>
+                    <td class="Control">
+                        <select>
+                            <option>Pakistan</option>
+                            <option>India</option>
+                            <option>Srilanka</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        DOB
+                    </td>
+                    <td class="Control">
+                        <input type="date" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Week
+                    </td>
+                    <td class="Control">
+                        <input type="week" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Month
+                    </td>
+                    <td class="Control">
+                        <input type="month" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Color
+                    </td>
+                    <td class="Control">
+                        <input type="color" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Range
+                    </td>
+                    <td class="Control">
+                        <input type="range" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Email
+                    </td>
+                    <td class="Control">
+                        <input type="email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Content">
+                        Feed Back
+                    </td>
+                    <td class="Control">
+                        <textarea rows="5" cols="40"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="Control">
+                        <input type="submit" value="Register" />
+                    </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+    <div id="dvBottom"></div>
+</body>
+</html>
